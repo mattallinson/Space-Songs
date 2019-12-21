@@ -1,0 +1,16 @@
+# Don't put any files with API keys on github
+auth.*
+
+# python crap
+.ipynb_checkpoints
+__pycache__
+.env/
+
+#mac crap
+.DS_Store
+
+# keeps out weird windows temp files
+~$*
+
+# private to-do list etc
+diary.md
